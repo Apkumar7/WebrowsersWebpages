@@ -1,0 +1,84 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.index{
+color: white;
+text-align: center;
+  text-size-adjust: 30%;
+}
+.nope{
+  height: 30%;
+  width: 100%;
+}
+.contact{
+  height: 30%;
+  width: 100%;
+}
+
+button{
+  border-color:#864ffe;
+  border-radius:12px;
+  background-color:#00a1d8;
+  text-color:#ffffff;
+  transiston-duration: 0.4s;
+  
+  
+  
+}
+button:hover{
+  background-color:#52d6fc00;
+  color: white;
+}
+.nope{
+  background-color:#e22400;
+  color:blue;
+  
+}
+
+.long{
+  color: #FCF9CF;
+}
+
+.happy{
+  color: yellow;
+}
+.fun{
+  color: white;
+  text-align: center;
+}
+.agree{
+  color: white;
+}
+.contact{
+  color: white;
+}
+<style>
+    #overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        background: #999;
+        width: 100%;
+        height: 100%;
+        opacity: 0.8;
+        z-index: 100;
+    }
+
+    #popup {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        background: #fff;
+        width: 500px;
+        height: 500px;
+        margin-left: -250px; /*Half the value of width to center div*/
+        margin-top: -250px; /*Half the value of height to center div*/
+        z-index: 200;
+    }
+   #popupclose {
+        float: right;
+        padding: 10px;
+        cursor: pointer;
+    }
+  </style>
